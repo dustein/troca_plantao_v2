@@ -6,8 +6,8 @@ export class PrismaUsersRepository implements UsersRepository {
 
    async create({email, name, apelido, telefone}: UserDataCreation) {
 
-      await prisma.users.create({
-         dados: {
+      await prisma.user.create({
+         data: {
             email,
             name,
             apelido,

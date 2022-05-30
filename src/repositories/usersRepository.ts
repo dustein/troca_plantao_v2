@@ -6,5 +6,5 @@ export interface UserDataCreation {
 }
 
 export interface UsersRepository {
-   create: (dados: UserDataCreation) => Promise<void>;
+   create: (data: UserDataCreation) => Promise<void>;
 }
