@@ -15,9 +15,8 @@ npm i uuid
 Configurar schema.prisma criando o model para o BD
 npx prisma migrate dev
 ver no npx prisma studio que a tabela ja esta pronta
-
-Para comecar as acoes com User. Criei o usersRepository, onde ficarao os metodos dizendo o que o repository podera fazer no banco de dados.
-Estudar os passos do repositorio do return...
+para o BD local note work, tive que fazer "npx prisma db push"
+Para comecar as acoes com User: 
 
 
 
